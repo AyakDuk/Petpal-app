@@ -1,0 +1,167 @@
+<resources>
+    <!--- XML files -->
+    <string name="app_name">Petpal</string>
+    <string name="app_label">City Wide Pet Care App</string>
+    <string name="call_label">CALL NOW</string>
+    <string name="contact_details">Contact Details</string>
+    <string name="email">Email</string>
+    <string name="first_name">First Name</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="forgot_password2">Forgot Password</string>
+    <string name="fp_intro">Enter your email address below and we will send you an email with instructions on how to change your password</string>
+    <string name="GO">SUBMIT</string>
+    <string name="last_name">Last Name</string>
+    <string name="location">Location</string>
+    <string name="location_spinner_label">Primary Location:</string>
+    <string name="location_spinner_error">Please select a location </string>
+    <string name="login_errorView">Please Confirm Login Details </string>
+    <string name="near_you">Near You</string>
+    <string name="phone_no">Phone Number</string>
+    <string name="please_login">Already have an account? LogIn</string>
+    <string name="please_signup">New User? Signup</string>
+    <string name="please_signup_psp">Signup as Service Provider</string>
+    <string name="psp_signup_error">Applicant Already Exists </string>
+    <string name="pswd">Password</string>
+    <string name="pswd2">Confirm Password</string>
+    <string name="radio_button_error">Please select a service type</string>
+    <string name="radio_button_label">Which Service Do You Provide?</string>
+    <string name="search_groomer"> Grooming</string>
+    <string name="search_service">Find Pet Care Service</string>
+    <string name="search_walker"> Walking</string>
+    <string name="search_both">Both</string>
+    <string name="serviceType_spinner_error">Please select a type of service </string>
+    <string name="signup_error">User Already Exists </string>
+    <string name="title_activity_secondary">SecondaryActivity</string>
+    <string name="title_activity_user.kt">User.kt</string>
+    <string name="title_activity_register_po">Register_PO</string>
+    <string name="title_activity_register_psp">Register_PSP</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="title_activity_user_profile">UserProfile</string>
+    <string name="title_activity_search_page">SearchPage</string>
+    <string name="title_activity_search_page.kt">SearchPage.kt</string>
+    <string name="title_activity_service_provider_details">Find Service</string>
+    <string name="title_activity_signup_psp">SignupPspActivity</string>
+    <string name="userName">Username</string>
+    <string name="welcome">Welcome</string>
+    <string name="welcome_intro">SignUp To Start Your Pets New Journey</string>
+    <string name="welcome_intro_psp">SignUp To Become One of Our Pet Service Providers</string>
+    <string name="welcome_again">Hello there, Welcome Back</string>
+    <string name="welcome_again_intro">Sign In to continue</string>
+
+    <string-array name="service_options">
+        <item>Service</item>
+        <item>Walking</item>
+        <item>Grooming</item>
+        <item>Walking and Grooming</item>
+    </string-array>
+    <string-array name="location_options">
+        <item>Location</item>
+        <item>Bahati, Nairobi</item>
+        <item>Buruburu</item>
+        <item>Dagoretti</item>
+        <item>Dandora</item>
+        <item>Donholm</item>
+        <item>Eastleigh, Nairobi</item>
+        <item>Embakasi</item>
+        <item>Embakasi Pipeline</item>
+        <item>Gatwekera</item>
+        <item>Gigiri</item>
+        <item>Githurai</item>
+        <item>Highridge</item>
+        <item>Hurlingham, Nairobi</item>
+        <item>Huruma</item>
+        <item>Imara Daima</item>
+        <item>Jericho, Nairobi</item>
+        <item>Kaloleni, Nairobi</item>
+        <item>Kambi Muru</item>
+        <item>Kamulu</item>
+        <item>Kangemi</item>
+        <item>Karen, Kenya</item>
+        <item>Kariobangi</item>
+        <item>Kasarani</item>
+        <item>Kawangware</item>
+        <item>Kayole</item>
+        <item>Kiambiu</item>
+        <item>Kibera</item>
+        <item>Kichinjio</item>
+        <item>Kileleshwa</item>
+        <item>Kilimani</item>
+        <item>Kisumu Ndogo</item>
+        <item>Kitisuru</item>
+        <item>Komarock</item>
+        <item>Korogocho</item>
+        <item>Kware, Nairobi</item>
+        <item>Kyuna</item>
+        <item>Laini Saba</item>
+        <item>Langata</item>
+        <item>Lavington, Nairobi</item>
+        <item>Lindi, Nairobi</item>
+        <item>Loresho</item>
+        <item>Lucky Summer</item>
+        <item>Madaraka Estate</item>
+        <item>Majengo, Nairobi</item>
+        <item>Makadara</item>
+        <item>Makongeni</item>
+        <item>Marurui</item>
+        <item>Mashimoni</item>
+        <item>Mathare</item>
+        <item>Mathare Valley</item>
+        <item>Matopeni</item>
+        <item>Mihango</item>
+        <item>Mountain View, Nairobi</item>
+        <item>Mugumoini</item>
+        <item>Muirigo</item>
+        <item>Mukuru kwa Njenga</item>
+        <item>Mukuru slums</item>
+        <item>Muthangari</item>
+        <item>Mutuini</item>
+        <item>Mwiki</item>
+        <item>Nairobi West</item>
+        <item>Ngando</item>
+        <item>Ngara, Nairobi</item>
+        <item>Njiru, Nairobi</item>
+        <item>Nyayo Estate</item>
+        <item>Nyayo Highrise</item>
+        <item>Ofafa</item>
+        <item>Pangani, Nairobi</item>
+        <item>Parklands, Nairobi</item>
+        <item>Pumwani</item>
+        <item>Raila</item>
+        <item>Riruta Satellite</item>
+        <item>Roysambu</item>
+        <item>Ruai</item>
+        <item>Ruaraka</item>
+        <item>Runda</item>
+        <item>Sarangombe</item>
+        <item>Shauri Moyo</item>
+        <item>Shilanga</item>
+        <item>Siranga</item>
+        <item>South B</item>
+        <item>South C</item>
+        <item>Soweto East</item>
+        <item>Soweto West</item>
+        <item>Spring Valley, Nairobi</item>
+        <item>Starehe</item>
+        <item>Syokimau</item>
+        <item>Thome, Nairobi</item>
+        <item>Umoja, Nairobi</item>
+        <item>Upper Hill, Nairobi</item>
+        <item>Utawala</item>
+        <item>Uthiru</item>
+        <item>Waithaka</item>
+        <item>Westlands, Nairobi</item>
+        <item>Woodley, Nairobi</item>
+        <item>Zimmerman, Nairobi</item>
+        <item>Ziwani, Nairobi</item>
+    </string-array>
+    <string-array name="filter_options">
+        <item>Walker</item>
+        <item>Groomer</item>
+        <item>Walker and Groomer</item>
+    </string-array>
+<string-array name="provider_options">
+    <item>Person</item>
+
+</string-array>
+
+</resources>

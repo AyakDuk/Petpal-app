@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:padding="20dp">
+
+
+    <ImageView
+        android:id="@+id/logo_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/img"
+        android:transitionName="app_image"/>
+
+
+    <TextView
+        android:fontFamily="casual"
+        android:id="@+id/logo_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_again"
+        android:textSize="40sp"
+        android:textAllCaps="true"
+        android:textColor="@color/purple_700"
+        android:transitionName="app_image_text"/>
+
+
+    <TextView
+        android:id="@+id/slogan_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_again_intro"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:transitionName="app_image_slogan"/>
+
+    <TextView
+        android:id="@+id/errorTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="@string/login_errorView"
+        android:textColor="@color/design_default_color_error"
+        android:visibility="gone"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/input_userUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/userName"
+            android:textColorHint="@color/black">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edit_text_userUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/input_pswd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/pswd"
+            app:passwordToggleEnabled="true"
+            android:textColorHint="@color/black">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edit_text_pswd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/forgot_pass_btn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/forgot_password"
+            android:layout_gravity="end"
+            android:elevation="0dp"
+            android:layout_margin="5dp"
+            android:background="@color/material_on_background_disabled"
+            android:textColor="@color/purple_700"/>
+
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/GO"
+            android:textColor="#fff"
+            android:layout_marginTop="5dp"
+            android:layout_margin="5dp"
+            android:background="@color/purple_700"/>
+
+        <Button
+            android:id="@+id/signup_screen"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/please_signup"
+            android:textColor="@color/purple_700"
+            android:layout_gravity="end"
+            android:layout_margin="5dp"
+            android:background="@color/material_on_background_disabled"
+            android:elevation="0dp" />
+
+        <Button
+            android:id="@+id/signup_psp_screen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/please_signup_psp"
+            android:textColor="@color/black"
+            android:layout_gravity="end"
+            android:layout_margin="5dp"
+            android:background="@color/material_on_background_disabled"
+            android:elevation="0dp" />
+
+    </LinearLayout>
+</LinearLayout>

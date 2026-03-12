@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "603155708894",
+    "project_id": "petpal-ayro",
+    "storage_bucket": "petpal-ayro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:603155708894:android:357a47ca9a394cfe47fb4f",
+        "android_client_info": {
+          "package_name": "com.baobapps.petpal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "603155708894-krg634un696aasf8vb7j6r24c0ieg0i0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIF4a8wWeZoVGLzeDHcIP82K_Jo0DszoE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "603155708894-krg634un696aasf8vb7j6r24c0ieg0i0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
